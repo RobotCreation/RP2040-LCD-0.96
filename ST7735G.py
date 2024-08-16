@@ -1,13 +1,17 @@
-#Functions Library to use display on RP2040-LCD-0.96
-#Firmware used: pico_micropython_20210121.uf2
-#Display 0.96-inch 160×80 pixels 65K colorful IPS LCD display
-#Based on ST7735.PY and graphicstest.py
-#   driver for Sainsmart 1.8" 160x128 TFT display ST7735 was modified
-#   to suit 160x80 rotated by 90 degrees, however some parameters are still 160x128
-#   and were not changed as there were a number of direct dependencies to those values
-#Translated by Guy Carver from the ST7735 sample code.
-#Modified for micropython-esp32 by boochow
-#Modified to be used on RP2040-LCD-0.96 by Mat Manzouri
+'''
+ Functions Library modified to be used on RP2040-LCD-0.96
+ https://github.com/robotcreation
+ Based on ST7735.PY and graphicstest.py
+ Modified for micropython-esp32 by boochow
+ Translated by Guy Carver from the ST7735 sample code.
+ Display 0.96-inch 160×80 pixels 65K colorful IPS LCD display
+   driver for Sainsmart 1.8" 160x128 TFT display ST7735 was modified
+   to suit 160x80 rotated by 90 degrees, however some parameters are still 160x128
+   and were not changed as there were a number of direct dependencies to those values
+ Firmware used: RPI_PICO-20240602-v1.23.0.uf2
+
+'''
+
 
 import machine
 import time

@@ -1,10 +1,14 @@
-# Example functions to use display on RP2040-LCD-0.96
-# Based on graphicstest.py
-# This Test Programme requires GraphicTestLib.py which is a modified version of ST7735.PY
-# Dependencies:
-#               Firmware used: pico_micropython_20210121.uf2
-#               ST7735G.py Library file
-#               Robot.BMP image
+'''
+ Example functions to use display on RP2040-LCD-0.96
+ https://github.com/robotcreation
+ Based on graphicstest.py
+ This Test Programme requires GraphicTestLib.py which is a modified version of ST7735.PY
+ Dependencies:
+               Firmware used: RPI_PICO-20240602-v1.23.0.uf2
+               ST7735G.py Library file
+               Robot.BMP image
+'''
+
 
 import ST7735G as lib
 from ST7735G import TFT
